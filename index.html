@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>LiteGPT</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="chat-container" id="chat"></div>
+
+  <div class="input-container">
+    <textarea id="userInput" placeholder="Ask anything..." rows="1"></textarea>
+    <button id="sendBtn">➤</button>
+    <button id="clearBtn">🧹</button>
+  </div>
+
+  <!-- Clear confirmation popup -->
+  <div id="popup" class="popup hidden">
+    <div class="popup-box">
+      <p>Clear chat?</p>
+      <button id="confirmClear">Yes</button>
+      <button id="cancelClear">No</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
